@@ -14,7 +14,7 @@ const BottomNav = () => {
           console.log(newValue)
         }}
         showLabels={true}
-        style={{ backgroundColor: '#ed6c02' }}
+        style={{ backgroundColor: '#2196f3' }}
         sx={{ height: 56 }}
       >
         <BottomNavigationAction label="Archive" icon={<ArchiveIcon />} />

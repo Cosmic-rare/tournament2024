@@ -16,7 +16,7 @@ interface TopBarProps {
 const TopBar = (props: TopBarProps) => {
   return (
     <Box sx={{ position: 'sticky', top: 0, left: 0, right: 0, flexGrow: 1 }}>
-      <AppBar position="static" color='warning'>
+      <AppBar position="static">
         <Toolbar>
           <IconButton
             size="large"
